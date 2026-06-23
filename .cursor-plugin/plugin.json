@@ -1,0 +1,11 @@
+{
+  "name": "sister-software",
+  "version": "1.0.0",
+  "description": "Skills for Sister Software projects",
+  "author": {
+    "name": "Sister Software",
+    "email": "support@sister.software",
+    "url": "https://sister.software"
+  },
+  "keywords": ["sister-software", "skills", "plugins"]
+}

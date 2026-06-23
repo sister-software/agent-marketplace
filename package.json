@@ -1,0 +1,65 @@
+{
+  "name": "@sister.software/marketplace",
+  "version": "1.0.0",
+  "description": "Marketplace for agentic tooling",
+  "homepage": "https://github.com/sister-software/marketplace#readme",
+  "bugs": {
+    "url": "https://github.com/sister-software/marketplace/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sister-software/marketplace.git"
+  },
+  "license": "AGPL-3.0-only",
+  "author": "Teffen Ellis",
+  "type": "module",
+  "devDependencies": {
+    "@sister.software/eslint-config": "^8.0.1",
+    "@sister.software/prettier-config": "^8.0.1",
+    "@sister.software/tsconfig": "^8.0.1",
+    "@types/node": "^25.9.2",
+    "eslint": "^9.39.4",
+    "eslint-plugin-html": "^8.1.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.8.3",
+    "prettier-plugin-jsdoc": "^1.8.1",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-packagejson": "^3.0.2",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.60.1",
+    "zx": "^8.8.5"
+  },
+  "workspaces": [
+    "mcp-servers/*"
+  ],
+  "keywords": [
+    "pi-package",
+    "claude-plugin",
+    "cursor-plugin",
+    "marketplace",
+    "skills"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ],
+    "skills": [
+      "./skills"
+    ],
+    "prompts": [
+      "./prompts"
+    ],
+    "themes": [
+      "./themes"
+    ]
+  },
+  "scripts": {
+    "lint": "run-s lint:prettier:check lint:eslint:check",
+    "lint:eslint:check": "eslint .",
+    "lint:eslint:fix": "eslint --fix .",
+    "lint:fix": "run-s lint:prettier:fix lint:eslint:fix",
+    "lint:prettier": "eslint .",
+    "lint:prettier:check": "prettier --cache --check -u .",
+    "lint:prettier:fix": "prettier --cache --write -u ."
+  }
+}

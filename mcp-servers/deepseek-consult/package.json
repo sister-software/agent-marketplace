@@ -1,0 +1,16 @@
+{
+  "name": "@sister-software/deepseek-consult-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "deepseek-consult-mcp": "./index.ts"
+  },
+  "dependencies": {
+    "@earendil-works/pi-agent-core": "^0.79.10",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@earendil-works/pi-coding-agent": "^0.79.10",
+    "@earendil-works/pi-ai": "^0.79.10",
+    "zod": "^4.4.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "sister-software",
+  "owner": {
+    "name": "Sister Software",
+    "url": "https://sister.software"
+  },
+  "plugins": [
+    {
+      "name": "sister-software",
+      "source": "./",
+      "description": "Skills for Sister Software projects"
+    }
+  ]
+}
