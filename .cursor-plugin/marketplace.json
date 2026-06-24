@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "sister-software",
+      "name": "sister",
       "source": "./",
       "description": "Skills for Sister Software projects"
     }

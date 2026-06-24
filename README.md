@@ -12,7 +12,7 @@ Install using the [plugin marketplace](https://code.claude.com/docs/en/discover-
 
 ```
 /plugin marketplace add sister-software/skills
-/plugin install sister-software@sister-software
+/plugin install sister-software@sister
 ```
 
 ### Pi
